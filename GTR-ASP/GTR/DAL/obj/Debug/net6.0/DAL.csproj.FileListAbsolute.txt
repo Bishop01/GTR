@@ -1,0 +1,14 @@
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+G:\Projects\GTR\GTR\DAL\bin\Debug\net6.0\DAL.deps.json
+G:\Projects\GTR\GTR\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+G:\Projects\GTR\GTR\DAL\bin\Debug\net6.0\DAL.dll
+G:\Projects\GTR\GTR\DAL\bin\Debug\net6.0\DAL.pdb
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.dll
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\refint\DAL.dll
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.pdb
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+G:\Projects\GTR\GTR\DAL\obj\Debug\net6.0\ref\DAL.dll

@@ -1,0 +1,15 @@
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+G:\Projects\GTR\GTR\BLL\bin\Debug\net6.0\BLL.deps.json
+G:\Projects\GTR\GTR\BLL\bin\Debug\net6.0\BLL.dll
+G:\Projects\GTR\GTR\BLL\bin\Debug\net6.0\BLL.pdb
+G:\Projects\GTR\GTR\BLL\bin\Debug\net6.0\DAL.dll
+G:\Projects\GTR\GTR\BLL\bin\Debug\net6.0\DAL.pdb
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.dll
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\refint\BLL.dll
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\BLL.pdb
+G:\Projects\GTR\GTR\BLL\obj\Debug\net6.0\ref\BLL.dll
