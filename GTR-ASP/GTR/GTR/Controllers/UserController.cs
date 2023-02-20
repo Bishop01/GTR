@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +13,14 @@ namespace GTR.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(new {Status=200, Message="Works"});
+            try
+            {
+                return Ok(new { Status = 200, Message = "Works" });
+            }
+            catch(Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e);
+            }
         }
     }
 }

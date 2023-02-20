@@ -42,7 +42,9 @@ namespace DAL.Repositories
                 Name = user.Name
             };
 
-            return (new {User = newUser, AccessToken=accessToken, RefreshToken= GenerateRefreshToken(user, refTokenSecKey) });
+            string refreshToken = await GenerateRefreshToken(user, refTokenSecKey);
+
+            return (new {User = newUser, AccessToken=accessToken, RefreshToken= refreshToken });
         }
 
         private string GenerateAccessToken(User user, string accTokenSecKey, int refreshDay = 1)

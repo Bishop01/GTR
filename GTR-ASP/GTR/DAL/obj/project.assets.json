@@ -3552,11 +3552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projects\\GTR\\GTR\\DAL\\DAL.csproj",
+      "projectUniqueName": "G:\\Projects\\gtrassignment\\GTR-ASP\\GTR\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "G:\\Projects\\GTR\\GTR\\DAL\\DAL.csproj",
+      "projectPath": "G:\\Projects\\gtrassignment\\GTR-ASP\\GTR\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Bishop\\.nuget\\packages\\",
-      "outputPath": "G:\\Projects\\GTR\\GTR\\DAL\\obj\\",
+      "outputPath": "G:\\Projects\\gtrassignment\\GTR-ASP\\GTR\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bishop\\AppData\\Roaming\\NuGet\\NuGet.Config",
