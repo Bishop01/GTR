@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    internal class User
+    public class User
     {
         [Key]
         public int Id { get; set; }
@@ -18,5 +19,7 @@ namespace DAL.Models
         public string Password { get; set; }
         //USE REGEX FOR VALIDATION
         public string Email { get; set; }
+
+        public virtual List<Product> Products { get; set; }
     }
 }

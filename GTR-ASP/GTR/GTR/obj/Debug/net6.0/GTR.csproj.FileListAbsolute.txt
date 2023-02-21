@@ -174,3 +174,5 @@ G:\Projects\gtrassignment\GTR-ASP\GTR\GTR\obj\Debug\net6.0\refint\GTR.dll
 G:\Projects\gtrassignment\GTR-ASP\GTR\GTR\obj\Debug\net6.0\GTR.pdb
 G:\Projects\gtrassignment\GTR-ASP\GTR\GTR\obj\Debug\net6.0\GTR.genruntimeconfig.cache
 G:\Projects\gtrassignment\GTR-ASP\GTR\GTR\obj\Debug\net6.0\ref\GTR.dll
+G:\Projects\gtrassignment\GTR-ASP\GTR\GTR\bin\Debug\net6.0\Bogus.dll
+G:\Projects\gtrassignment\GTR-ASP\GTR\GTR\bin\Debug\net6.0\AutoMapper.dll

@@ -9,11 +9,12 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    internal class Token
+    public class Token
     {
         [Key]
         public int Id { get; set; }
         public string RefreshToken { get; set; } = string.Empty;
+        public int Status { get; set; } = 1;
         public DateTime ExpiresAt { get; set; }
         [ForeignKey("User")]
         public int UserId { get; set; }

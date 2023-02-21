@@ -38,6 +38,7 @@ namespace DAL.Repositories
 
             User newUser = new User()
             {
+                Id = user.Id,
                 Email = user.Email,
                 Name = user.Name
             };
@@ -57,7 +58,7 @@ namespace DAL.Repositories
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
             var token = new JwtSecurityToken(
                 claims: Claims,
-                expires: DateTime.Now.AddSeconds(40),
+                expires: DateTime.Now.AddMinutes(5),
                 signingCredentials: cred
             );
 

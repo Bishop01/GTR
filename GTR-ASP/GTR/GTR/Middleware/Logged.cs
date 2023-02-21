@@ -2,6 +2,7 @@
 using BLL.DTOs;
 using BLL.Services;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -13,6 +14,7 @@ using System.Threading.Tasks;
 namespace GTR.Middleware
 {
     // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
+    [EnableCors("CorsPolicy")]
     public class Logged
     {
         private readonly RequestDelegate _next;
@@ -30,7 +32,6 @@ namespace GTR.Middleware
             if (token == null)
             {
                 httpContext.Response.StatusCode = 401; //UnAuthorized
-                await httpContext.Response.WriteAsync("Invalid User Key");
                 return;
             }
             else
@@ -56,8 +57,9 @@ namespace GTR.Middleware
 
                     // return user id from JWT token if validation successful
                     await _next(httpContext);
+                    return;
                 }
-                catch
+                catch(Exception e)
                 {
                     // return null if validation fails
                     httpContext.Response.StatusCode = 403; //Restricted

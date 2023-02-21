@@ -7,6 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace GTR.Controllers
 {
+    [EnableCors("CorsPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
@@ -46,11 +47,11 @@ namespace GTR.Controllers
 
         [Route("Refresh")]
         [HttpPost]
-        public async Task<IActionResult> Refresh(UserDTO user)
+        public async Task<IActionResult> Refresh(TokenDTO user)
         {
             try
             {
-                var token = Request.Headers.Authorization.ToString();
+                var token = user.RefreshToken;
                 if (token.IsNullOrEmpty())
                     return Unauthorized(new { Status = 401, Message = "No token provided!" });
 
